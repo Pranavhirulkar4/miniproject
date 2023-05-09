@@ -3,6 +3,7 @@
 from flask import Flask, request, render_template
 from jinja2 import escape
 from flask_cors import cross_origin
+import mysql.connector
 import sklearn
 import pickle
 import streamlit as st
