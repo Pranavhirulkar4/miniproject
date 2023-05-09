@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask, request, render_template
+from jinja2 import escape
 from flask_cors import cross_origin
 import sklearn
 import pickle
