@@ -4,6 +4,7 @@ from flask import Flask, request, render_template
 from flask_cors import cross_origin
 import sklearn
 import pickle
+import streamlit as st
 import pandas as pd
 
 app = Flask(__name__)
