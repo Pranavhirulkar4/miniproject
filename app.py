@@ -2,7 +2,7 @@
 
 from flask import Flask, request, render_template
 from jinja2 import escape
-from flask_cors import cross_origin
+from flask import Flask
 import mysql.connector
 import sklearn
 import pickle
