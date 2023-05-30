@@ -3,7 +3,7 @@
 from flask import Flask, request, render_template
 from jinja2 import escape
 from flask import Flask
-import mysql connector
+import mysqlconnector
 import sklearn
 import pickle
 import streamlit as st
