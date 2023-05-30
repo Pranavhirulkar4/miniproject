@@ -3,7 +3,6 @@
 from flask import Flask, request, render_template
 from jinja2 import escape
 from flask import Flask
-import mysql.connect
 import sklearn
 import pickle
 import yfinance as yf
