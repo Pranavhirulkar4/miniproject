@@ -5,7 +5,6 @@ from jinja2 import escape
 from flask import Flask
 import sklearn
 import pickle
-import yfinance as yf
 import streamlit as st
 import pandas as pd
 
