@@ -6,6 +6,7 @@ from flask import Flask
 import mysql.connnector
 import sklearn
 import pickle
+import yfinance as yf
 import streamlit as st
 import pandas as pd
 
