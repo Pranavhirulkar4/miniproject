@@ -3,7 +3,7 @@
 from flask import Flask, request, render_template
 from jinja2 import escape
 from flask import Flask
-install mysql-connector-python
+install mysql.connector
 import mysql.connnector
 import sklearn
 import pickle
